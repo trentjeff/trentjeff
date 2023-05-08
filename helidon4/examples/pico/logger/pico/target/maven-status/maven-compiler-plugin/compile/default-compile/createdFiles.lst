@@ -1,0 +1,9 @@
+io/helidon/examples/pico/logger/common/ImCommunicationMode$$Pico$$Activator.class
+io/helidon/examples/pico/logger/common/DefaultCommunicator$$Pico$$Activator.class
+io/helidon/examples/pico/logger/common/LoggerProvider$$Pico$$Activator.class
+io/helidon/examples/pico/logger/common/Pico$$Module.class
+io/helidon/examples/pico/logger/common/EmailCommunicationMode$$Pico$$Activator.class
+io/helidon/examples/pico/logger/common/Communication$$Pico$$Activator.class
+io/helidon/examples/pico/logger/common/SmsCommunicationMode$$Pico$$Activator.class
+io/helidon/examples/pico/logger/common/AnotherCommunicationMode$$Pico$$Activator.class
+io/helidon/examples/pico/logger/pico/Main.class

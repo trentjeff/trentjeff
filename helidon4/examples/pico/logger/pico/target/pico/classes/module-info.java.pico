@@ -1,0 +1,16 @@
+// @Generated(value = "io.helidon.pico.tools.ModuleInfoDescriptorDefault", comments = "version=1")
+module helidon.examples.pico.logger.common {
+    exports io.helidon.examples.pico.logger.common;
+    // pico module - Generated(value = "io.helidon.pico.tools.ActivatorCreatorDefault", comments = "version=1")
+    provides io.helidon.pico.api.ModuleComponent with io.helidon.examples.pico.logger.common.Pico$$Module;
+    // pico external contract usage - Generated(value = "io.helidon.pico.tools.ActivatorCreatorDefault", comments = "version=1")
+    requires helidon.examples.pico.logger.common;
+    uses io.helidon.examples.pico.logger.common.CommunicationMode;
+    uses io.helidon.examples.pico.logger.common.Communicator;
+    uses jakarta.inject.Provider;
+    uses javax.inject.Provider;
+    // pico services - Generated(value = "io.helidon.pico.tools.ActivatorCreatorDefault", comments = "version=1")
+    requires transitive io.helidon.pico.runtime;
+    // pico application - Generated(value = "io.helidon.pico.tools.ApplicationCreatorDefault", comments = "version=1")
+    provides io.helidon.pico.api.Application with helidon.examples.pico.logger.common.Pico$$Application;
+}

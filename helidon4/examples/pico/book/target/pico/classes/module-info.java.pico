@@ -1,0 +1,10 @@
+// @Generated(value = "io.helidon.pico.tools.ModuleInfoDescriptorDefault", comments = "version=1")
+module io.helidon.examples.pico.book {
+    exports io.helidon.examples.pico.book;
+    // pico module - Generated(value = "io.helidon.pico.tools.ActivatorCreatorDefault", comments = "version=1")
+    provides io.helidon.pico.api.ModuleComponent with io.helidon.examples.pico.book.Pico$$Module;
+    // pico services - Generated(value = "io.helidon.pico.tools.ActivatorCreatorDefault", comments = "version=1")
+    requires transitive io.helidon.pico.runtime;
+    // pico application - Generated(value = "io.helidon.pico.tools.ApplicationCreatorDefault", comments = "version=1")
+    provides io.helidon.pico.api.Application with io.helidon.examples.pico.book.Pico$$Application;
+}

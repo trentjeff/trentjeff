@@ -1,0 +1,16 @@
+io/helidon/examples/pico/car/pico/EngineProvider$$Pico$$Activator.class
+io/helidon/examples/pico/car/pico/BrandDefault.class
+io/helidon/examples/pico/car/pico/Pico$$Module.class
+io/helidon/examples/pico/car/pico/BrandBase.class
+io/helidon/examples/pico/car/pico/Car$$Pico$$Activator.class
+io/helidon/examples/pico/car/pico/Engine.class
+io/helidon/examples/pico/car/pico/Brand.class
+io/helidon/examples/pico/car/pico/EngineProvider.class
+io/helidon/examples/pico/car/pico/BrandDefault$Builder.class
+io/helidon/examples/pico/car/pico/Car.class
+io/helidon/examples/pico/car/pico/Main.class
+io/helidon/examples/pico/car/pico/Vehicle.class
+META-INF/services/io.helidon.pico.api.ModuleComponent
+io/helidon/examples/pico/car/pico/BrandProvider$$Pico$$Activator.class
+io/helidon/examples/pico/car/pico/BrandProvider.class
+io/helidon/examples/pico/car/pico/BrandBase$Builder.class

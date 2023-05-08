@@ -1,0 +1,12 @@
+May 08, 2023 9:48:42 AM io.helidon.pico.runtime.DefaultServices bind
+INFO: starting binding application: io.helidon.examples.pico.car.pico
+May 08, 2023 9:48:42 AM io.helidon.pico.runtime.DefaultServices bind
+INFO: finished binding application: io.helidon.examples.pico.car.pico
+found a car provider: Car:INIT
+found a car: Car(engine=Engine,brand=Brand(name=Pico))
+Engine started
+Engine stopped
+Pico Main memory consumption = 6291424 bytes
+Pico Main elapsed time = 137 ms
+Pico JUnit memory consumption = 6291424 bytes
+Pico JUnit elapsed time = 139 ms

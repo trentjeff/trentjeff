@@ -1,0 +1,8 @@
+found a car component: io.helidon.examples.pico.car.dagger2.DaggerVehiclesComponent$VehiclesComponentImpl@57175e74
+found a car: Car(engine=Engine,brand=Brand(name=Dagger2))
+Engine started
+Engine stopped
+Dagger2 Main memory consumption = 482400 bytes
+Dagger2 Main elapsed time = 17 ms
+Dagger2 JUnit memory consumption = 482400 bytes
+Dagger2 JUnit elapsed time = 20 ms

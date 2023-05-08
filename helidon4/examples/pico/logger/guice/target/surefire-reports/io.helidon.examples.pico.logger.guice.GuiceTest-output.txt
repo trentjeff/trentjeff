@@ -1,0 +1,17 @@
+May 08, 2023 9:48:44 AM io.helidon.examples.pico.logger.common.Communication sendMessageViaAllModes
+INFO: explicitly calling postConstruct
+May 08, 2023 9:48:44 AM io.helidon.examples.pico.logger.common.Communication postConstruct
+INFO: logging is enabled for communication
+May 08, 2023 9:48:44 AM io.helidon.examples.pico.logger.common.EmailCommunicationMode sendMessage
+INFO: Sending message 'Hello World!' over email
+May 08, 2023 9:48:44 AM io.helidon.examples.pico.logger.common.SmsCommunicationMode sendMessage
+INFO: Sending message 'Hello World!' over SMS
+May 08, 2023 9:48:44 AM io.helidon.examples.pico.logger.common.ImCommunicationMode sendMessage
+INFO: Sending message 'Hello World!' over IM
+May 08, 2023 9:48:44 AM io.helidon.examples.pico.logger.common.AnotherCommunicationMode sendMessage
+INFO: Sending message 'Hello World!' over another (default) communication mode
+finished sending: 4
+Guice Main memory consumption = -8459680 bytes
+Guice Main elapsed time = 247 ms
+Guice JUnit memory consumption = -8051120 bytes
+Guice JUnit elapsed time = 249 ms

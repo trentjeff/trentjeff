@@ -1,0 +1,13 @@
+// @Generated(value = "io.helidon.pico.tools.ModuleInfoDescriptorDefault", comments = "version=1")
+module io.helidon.examples.pico.car.pico {
+    exports io.helidon.examples.pico.car.pico;
+    // pico module - Generated(value = "io.helidon.pico.tools.ActivatorCreatorDefault", comments = "version=1")
+    provides io.helidon.pico.api.ModuleComponent with io.helidon.examples.pico.car.pico.Pico$$Module;
+    // pico external contract usage - Generated(value = "io.helidon.pico.tools.ActivatorCreatorDefault", comments = "version=1")
+    uses jakarta.inject.Provider;
+    uses io.helidon.pico.api.InjectionPointProvider;
+    // pico services - Generated(value = "io.helidon.pico.tools.ActivatorCreatorDefault", comments = "version=1")
+    requires transitive io.helidon.pico.runtime;
+    // pico application - Generated(value = "io.helidon.pico.tools.ApplicationCreatorDefault", comments = "version=1")
+    provides io.helidon.pico.api.Application with io.helidon.examples.pico.car.pico.Pico$$Application;
+}

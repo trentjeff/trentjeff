@@ -1,0 +1,53 @@
+found a library handle: SystemDescriptor(
+	implementation=io.helidon.examples.pico.book.Library
+	contracts={io.helidon.examples.pico.book.Library,io.helidon.examples.pico.book.BookHolder}
+	scope=jakarta.inject.Singleton
+	qualifiers={}
+	descriptorType=CLASS
+	descriptorVisibility=NORMAL
+	metadata=
+	rank=0
+	loader=null
+	proxiable=null
+	proxyForSameScope=null
+	analysisName=null
+	id=12
+	locatorId=0
+	identityHashCode=1991371192
+	reified=true)
+setting optional color wheel blue to Optional[BlueColor]
+setting optional color wheel green to Optional[GreenColor]
+setting optional color wheel red to Optional[EmptyRedBookCase(books=[Optional.empty])]
+setting provider wheel green to IterableProviderImpl(Color,{@io.helidon.examples.pico.book.Green()},1912821769)
+setting provider color wheel red to IterableProviderImpl(Color,{@io.helidon.examples.pico.book.Red()},151593342)
+setting providerList wheel blue to null
+setting providerList wheel green to null
+setting providerList color wheel red to null
+setting provider wheel blue to IterableProviderImpl(Color,{@io.helidon.examples.pico.book.Blue()},405215542)
+error: A MultiException has 4 exceptions.  They are:
+1. org.glassfish.hk2.api.UnsatisfiedDependencyException: There was no object available in __HK2_Generated_0 for injection at SystemInjecteeImpl(requiredType=List<Provider<Book>>,parent=Library,qualifiers={},position=0,optional=false,self=false,unqualified=null,1042790962)
+2. org.glassfish.hk2.api.UnsatisfiedDependencyException: There was no object available in __HK2_Generated_0 for injection at SystemInjecteeImpl(requiredType=List<BookHolder>,parent=Library,qualifiers={},position=1,optional=false,self=false,unqualified=null,990897274)
+3. java.lang.IllegalArgumentException: While attempting to resolve the dependencies of io.helidon.examples.pico.book.Library errors were found
+4. java.lang.IllegalStateException: Unable to perform operation: resolve on io.helidon.examples.pico.book.Library
+
+found a color wheel handle: SystemDescriptor(
+	implementation=io.helidon.examples.pico.book.ColorWheel
+	contracts={io.helidon.examples.pico.book.ColorWheel}
+	scope=jakarta.inject.Singleton
+	qualifiers={}
+	descriptorType=CLASS
+	descriptorVisibility=NORMAL
+	metadata=
+	rank=0
+	loader=null
+	proxiable=null
+	proxyForSameScope=null
+	analysisName=null
+	id=8
+	locatorId=0
+	identityHashCode=1683662486
+	reified=true)
+color wheel: io.helidon.examples.pico.book.ColorWheel@6caf0677
+Hk2 Main memory consumption = 5222400 bytes
+Hk2 Main elapsed time = 79 ms
+Hk2 Junit elapsed time = -1683543614226 ms

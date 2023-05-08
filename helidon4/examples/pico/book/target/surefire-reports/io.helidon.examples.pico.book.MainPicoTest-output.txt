@@ -1,0 +1,39 @@
+May 08, 2023 9:48:37 AM io.helidon.pico.runtime.DefaultServices bind
+INFO: starting binding application: io.helidon.examples.pico.book
+May 08, 2023 9:48:37 AM io.helidon.pico.runtime.DefaultServices bind
+INFO: finished binding application: io.helidon.examples.pico.book
+found a library provider: Library:INIT
+setting providerList wheel blue to [BlueColor:ACTIVE]
+setting providerList wheel green to [GreenColor:ACTIVE]
+setting providerList color wheel red to [EmptyRedBookCase:ACTIVE, RedColor:INIT]
+setting provider wheel blue to BlueColor:ACTIVE
+setting optional color wheel blue to Optional[BlueColor]
+setting optional color wheel green to Optional[GreenColor]
+setting optional color wheel red to Optional[EmptyRedBookCase(books=[Optional.empty])]
+setting provider wheel green to GreenColor:ACTIVE
+setting provider color wheel red to EmptyRedBookCase:ACTIVE
+setting providerList wheel blue to [BlueColor:ACTIVE]
+setting providerList wheel green to [GreenColor:ACTIVE]
+setting providerList color wheel red to [EmptyRedBookCase:ACTIVE, RedColor:INIT]
+setting provider wheel blue to BlueColor:ACTIVE
+setting optional color wheel blue to Optional[Optional[BlueColor]]
+setting optional color wheel green to Optional[Optional[GreenColor]]
+setting optional color wheel red to Optional[Optional[EmptyRedBookCase(books=[Optional.empty])]]
+setting provider wheel green to GreenColor:ACTIVE
+setting provider color wheel red to EmptyRedBookCase:ACTIVE
+library is open: Library(books=[MobyDickInBlue:INIT, ParadiseLostInGreen:INIT, UlyssesInGreen:INIT])
+library: Library(books=[MobyDickInBlue:INIT, ParadiseLostInGreen:INIT, UlyssesInGreen:INIT])
+found a color wheel provider: ColorWheel:ACTIVE
+setting providerList wheel blue to [BlueColor:ACTIVE]
+setting providerList wheel green to [GreenColor:ACTIVE]
+setting providerList color wheel red to [EmptyRedBookCase:ACTIVE, RedColor:INIT]
+setting provider wheel blue to BlueColor:ACTIVE
+setting optional color wheel blue to Optional[Optional[BlueColor]]
+setting optional color wheel green to Optional[Optional[GreenColor]]
+setting optional color wheel red to Optional[Optional[EmptyRedBookCase(books=[Optional.empty])]]
+setting provider wheel green to GreenColor:ACTIVE
+setting provider color wheel red to EmptyRedBookCase:ACTIVE
+color wheel: io.helidon.examples.pico.book.ColorWheel@185a6e9
+Pico Main memory consumption = 7823704 bytes
+Pico Main elapsed time = 152 ms
+Pico Junit elapsed time = -1683529717914 ms

@@ -1,0 +1,23 @@
+May 08, 2023 9:48:47 AM io.helidon.pico.runtime.DefaultServices bind
+INFO: starting binding application: helidon.examples.pico.logger.common
+May 08, 2023 9:48:47 AM io.helidon.pico.runtime.DefaultServices bind
+INFO: finished binding application: helidon.examples.pico.logger.common
+May 08, 2023 9:48:47 AM io.helidon.examples.pico.logger.common.Communication postConstruct
+INFO: logging is enabled for communication
+May 08, 2023 9:48:47 AM io.helidon.examples.pico.logger.common.Communication sendMessageViaAllModes
+INFO: explicitly calling postConstruct
+May 08, 2023 9:48:47 AM io.helidon.examples.pico.logger.common.Communication postConstruct
+INFO: logging is enabled for communication
+May 08, 2023 9:48:47 AM io.helidon.examples.pico.logger.common.EmailCommunicationMode sendMessage
+INFO: Sending message 'Hello World!' over email
+May 08, 2023 9:48:47 AM io.helidon.examples.pico.logger.common.SmsCommunicationMode sendMessage
+INFO: Sending message 'Hello World!' over SMS
+May 08, 2023 9:48:47 AM io.helidon.examples.pico.logger.common.ImCommunicationMode sendMessage
+INFO: Sending message 'Hello World!' over IM
+May 08, 2023 9:48:47 AM io.helidon.examples.pico.logger.common.AnotherCommunicationMode sendMessage
+INFO: Sending message 'Hello World!' over another (default) communication mode
+finished sending: 4
+Pico Main memory consumption = 6855584 bytes
+Pico Main elapsed time = 145 ms
+Pico Junit memory consumption = 254356384 bytes
+Pico Junit elapsed time = -1683530211003 ms

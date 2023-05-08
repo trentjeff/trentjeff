@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="io.helidon.examples.pico.logger.pico.PicoTest" time="0.177" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jtrent/dev/trentjeff/helidon4/examples/pico/logger/pico/target/test-classes:/Users/jtrent/dev/trentjeff/helidon4/examples/pico/logger/pico/target/classes:/Users/jtrent/dev/trentjeff/helidon4/examples/pico/logger/common/target/helidon-examples-pico-logger-common-4.0.0-SNAPSHOT.jar:/Users/jtrent/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/Users/jtrent/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/jtrent/.m2/repository/io/helidon/pico/helidon-pico-runtime/4.0.0-SNAPSHOT/helidon-pico-runtime-4.0.0-SNAPSHOT.jar:/Users/jtrent/.m2/repository/io/helidon/pico/helidon-pico-api/4.0.0-SNAPSHOT/helidon-pico-api-4.0.0-SNAPSHOT.jar:/Users/jtrent/.m2/repository/io/helidon/common/helidon-common-types/4.0.0-SNAPSHOT/helidon-common-types-4.0.0-SNAPSHOT.jar:/Users/jtrent/.m2/repository/io/helidon/common/helidon-common/4.0.0-SNAPSHOT/helidon-common-4.0.0-SNAPSHOT.jar:/Users/jtrent/.m2/repository/io/helidon/common/helidon-common-config/4.0.0-SNAPSHOT/helidon-common-config-4.0.0-SNAPSHOT.jar:/Users/jtrent/.m2/repository/io/helidon/builder/helidon-builder/4.0.0-SNAPSHOT/helidon-builder-4.0.0-SNAPSHOT.jar:/Users/jtrent/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/jtrent/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/Users/jtrent/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/jtrent/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/jtrent/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Users/jtrent/.sdkman/candidates/java/20-oracle/lib"/>
+    <property name="sun.java.command" value="/Users/jtrent/dev/trentjeff/helidon4/examples/pico/logger/pico/target/surefire/surefirebooter15087619287234225353.jar /Users/jtrent/dev/trentjeff/helidon4/examples/pico/logger/pico/target/surefire 2023-05-08T09-48-36_875-jvmRun1 surefire11596402097721637910tmp surefire_411912163005742715456tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/jtrent/dev/trentjeff/helidon4/examples/pico/logger/pico/target/test-classes:/Users/jtrent/dev/trentjeff/helidon4/examples/pico/logger/pico/target/classes:/Users/jtrent/dev/trentjeff/helidon4/examples/pico/logger/common/target/helidon-examples-pico-logger-common-4.0.0-SNAPSHOT.jar:/Users/jtrent/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/Users/jtrent/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/jtrent/.m2/repository/io/helidon/pico/helidon-pico-runtime/4.0.0-SNAPSHOT/helidon-pico-runtime-4.0.0-SNAPSHOT.jar:/Users/jtrent/.m2/repository/io/helidon/pico/helidon-pico-api/4.0.0-SNAPSHOT/helidon-pico-api-4.0.0-SNAPSHOT.jar:/Users/jtrent/.m2/repository/io/helidon/common/helidon-common-types/4.0.0-SNAPSHOT/helidon-common-types-4.0.0-SNAPSHOT.jar:/Users/jtrent/.m2/repository/io/helidon/common/helidon-common/4.0.0-SNAPSHOT/helidon-common-4.0.0-SNAPSHOT.jar:/Users/jtrent/.m2/repository/io/helidon/common/helidon-common-config/4.0.0-SNAPSHOT/helidon-common-config-4.0.0-SNAPSHOT.jar:/Users/jtrent/.m2/repository/io/helidon/builder/helidon-builder/4.0.0-SNAPSHOT/helidon-builder-4.0.0-SNAPSHOT.jar:/Users/jtrent/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/jtrent/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/Users/jtrent/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/jtrent/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/jtrent/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jtrent"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-03-21"/>
+    <property name="java.home" value="/Users/jtrent/.sdkman/candidates/java/20-oracle"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/jtrent/dev/trentjeff/helidon4/examples/pico/logger/pico"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/jtrent/dev/trentjeff/helidon4/examples/pico/logger/pico/target/surefire/surefirebooter15087619287234225353.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="20+36-2344"/>
+    <property name="user.name" value="jtrent"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.3.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/jtrent/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/vf/cvxb0s7s4sq0zl6kh0tpl9fr0000gq/T/"/>
+    <property name="java.version" value="20"/>
+    <property name="user.dir" value="/Users/jtrent/dev/trentjeff/helidon4/examples/pico/logger/pico"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/jtrent/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="20+36-2344"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="testMain" classname="io.helidon.examples.pico.logger.pico.PicoTest" time="0.165">
+    <system-out><![CDATA[finished sending: 4
+Pico Main memory consumption = 6855584 bytes
+Pico Main elapsed time = 145 ms
+Pico Junit memory consumption = 254356384 bytes
+Pico Junit elapsed time = -1683530211003 ms
+]]></system-out>
+    <system-err><![CDATA[May 08, 2023 9:48:47 AM io.helidon.pico.runtime.DefaultServices bind
+INFO: starting binding application: helidon.examples.pico.logger.common
+May 08, 2023 9:48:47 AM io.helidon.pico.runtime.DefaultServices bind
+INFO: finished binding application: helidon.examples.pico.logger.common
+May 08, 2023 9:48:47 AM io.helidon.examples.pico.logger.common.Communication postConstruct
+INFO: logging is enabled for communication
+May 08, 2023 9:48:47 AM io.helidon.examples.pico.logger.common.Communication sendMessageViaAllModes
+INFO: explicitly calling postConstruct
+May 08, 2023 9:48:47 AM io.helidon.examples.pico.logger.common.Communication postConstruct
+INFO: logging is enabled for communication
+May 08, 2023 9:48:47 AM io.helidon.examples.pico.logger.common.EmailCommunicationMode sendMessage
+INFO: Sending message 'Hello World!' over email
+May 08, 2023 9:48:47 AM io.helidon.examples.pico.logger.common.SmsCommunicationMode sendMessage
+INFO: Sending message 'Hello World!' over SMS
+May 08, 2023 9:48:47 AM io.helidon.examples.pico.logger.common.ImCommunicationMode sendMessage
+INFO: Sending message 'Hello World!' over IM
+May 08, 2023 9:48:47 AM io.helidon.examples.pico.logger.common.AnotherCommunicationMode sendMessage
+INFO: Sending message 'Hello World!' over another (default) communication mode
+]]></system-err>
+  </testcase>
+</testsuite>
